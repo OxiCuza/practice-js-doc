@@ -22,3 +22,11 @@ const TODO = {
     id: 1,
     text: 'Hello World !',
 };
+
+/**
+ * Calculate the tax 
+ * @param {number} amount - total amount
+ * @param {number} tax - tax percentage
+ * @returns {string} - total with a dollar sign
+ */
+const calculateTax = (amount, tax) => `$ ${amount + tax * amount}`
